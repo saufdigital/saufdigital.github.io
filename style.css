@@ -5,7 +5,7 @@ body, html {
   
   .bgimg {
     /* Background image */
-    background-image: url('/w3images/forestbridge.jpg');
+    background-image: url('https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=760&q=80');
     /* Full-screen */
     height: 100%;
     /* Center the background image */
