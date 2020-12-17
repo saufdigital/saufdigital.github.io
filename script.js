@@ -98,7 +98,19 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+var message = "";
 
+$("#submitBtn").on("click", function() {
+    message = $("#contactform").serialize();
+    $.ajax({
+        url: "https://formspree.io/f/mleopyob", 
+        method: "POST",
+        data: {message: message},
+        dataType: "json"
+    });
+    alert('Thanks for the email, we\'ll be in touch promptly.');
+    return false;
+});
 // var sbtBtn = document.getElementById('submitBtn');
 
 // sbtBtn.addEventListener('click', function(){
