@@ -99,9 +99,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-var sbtBtn = document.getElementById('submitBtn');
+// var sbtBtn = document.getElementById('submitBtn');
 
-sbtBtn.addEventListener('click', function(){
-  window.location.href = "thanks.html";
+// sbtBtn.addEventListener('click', function(){
+//   window.location.href = "thanks.html";
 
-})
+// })
