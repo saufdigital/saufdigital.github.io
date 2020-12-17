@@ -219,7 +219,7 @@ line-height: 180%;
     width: 100%;
 }
 #formBoxCol-2{
-    background: url(images/images/testmonialImg1.png);
+    background: url(/testmonialImg1.png);
     background-size: cover;
    
 
