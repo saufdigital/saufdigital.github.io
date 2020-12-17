@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'DM Sans' ,serif;
+    scroll-behavior: smooth;
+}
+nav{
+    box-shadow: 0 4px 8px 0 #f0f0f0, 0 6px 20px 0 #f0f0f0;
+    height: 127px;
+    width: 100%;
+}
+
+.navbar-brand{
+  padding: 15px 100px 15px 40px;
+}
+
+#aboutText{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #252525;
+    padding-top: 15px;
+   
+    text-align: center;
+}
+
+#servicesText{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #252525;
+    padding-top: 15px;
+    
+}
+
+#contactText{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    padding-top: 15px;
+    color: #252525;
+}
+
+#quoteText{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    padding-top: 15px;
+   
+    
+
+}
+
+#quoteText a {
+    color: #D00011;
+    font-weight: 700;
+}
+#middleMenu{
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+#middleMenu a{
+    color: #252525;
+    font-weight: 700;
+}
+
+
+
+.navbar-nav li{
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  .navlink a{
+      padding-right: 70px;
+      padding-left:70px
+  }
+
+.col{
+    padding-top: 70px;
+  
+    
+    padding-left: 50px;
+    /* width: 150%; */
+}
+
+
+#seeMoreBtn{
+    background-color: #D00011;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 5% 10% 5% 10%;
+    font-family: 'DM Sans' , serif;
+    font-size: 22px;
+}
+
+#seeMoreBtn:hover{
+background-color: #9b000d;
+cursor: pointer;
+}
+
+.col img{
+    width: 600px;
+}
+
+
+#sloganText p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+
+
+
+#secondPortion p{
+    background:url(/images/secondBg.png);
+    background-repeat: no-repeat;
+    /* width: 109%; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'DM Sans' , serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: justify;
+    /* justify-content: left; */
+    padding:45px 30px 25px 30px;
+    z-index: 20;
+
+    height: 35rem;
+    
+   
+    
+    
+}
+
+/* .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+    margin-bottom: 150px;
+  }
+  .slick-slide img{
+    width:110%;
+    border: 8px solid #fff;
+  } */
+  .slick-slide img{
+   /* width:420px; */
+   background-size: cover;
+   height: 420px;
+   border-radius: 5px;
+   border: 0.5px solid #d1d1d1 ;
+  } 
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  .carousel{
+    width:100%;
+    margin:0px auto;
+  }
+
+  .slick-slide{
+    margin:50px;
+    margin-bottom: 100px;
+  }
+
+  .slick-slide img:hover{
+    /* width:420px; */
+    box-shadow: 0 4px 20px 0 #f0f0f0, 0 6px 20px 0 #dadada;
+    cursor: pointer;
+   } 
+
+   #formHeading h1{
+    font-weight: 700; padding: 0px 50px 50px 0px;
+   }
+#twdrow{
+    padding-bottom: 150px;
+}
+#twdcol li{
+list-style: none;
+font-size: 32px;
+font-weight: 500;
+line-height: 180%;
+
+}
+.form-group{
+    padding-right: 35px;
+}
+#submitBtn{
+    background-color: #D00011;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 2% 5% 2% 5%;
+    font-family: 'DM Sans' , serif;
+    font-size: 22px;
+    width: 100%;
+}
+#formBoxCol-2{
+    background: url(images/images/testmonialImg1.png);
+    background-size: cover;
+   
+
+   
+}
+
+#testmonialHeading{
+   padding-top: 150px;
+}
+#testimonialText h3{
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 20px 150px 20px 0;
+}
+
+#formBoxCol-2 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    
+
+}
+
+#testimonialProfile h3{
+    font-size: 18px;
+    padding: 25px 0 0 25px;
+
+}
+#profile-box{
+    padding-top: 150px;
+}
+
+
+.footerSocial {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    
+   
+    }
+
+.footerSocial li {
+    list-style: none;
+    word-spacing: 15px;
+}
+
+#footerIcon{
+    text-align: right;
+    align-items: right;
+}
+
+#lab_social_icon_footer {
+    /* padding: 40px 0;
+    background-color: #dedede; */
+  }
+  
+  #lab_social_icon_footer a {
+    color: #333;
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+  
+  #lab_social_icon_footer #social-insta:hover {
+    color: #ff3366;
+  }
+  
+  #lab_social_icon_footer #social-gp:hover {
+    color: #d34836;
+  }
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+  }
+
+  .text-02{
+      background-color: #D00011;
+      background-size: cover;
+      padding: 15px 0px 15px 0px;
+  }
+
+  
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #D00011;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+#myBtn:hover{
+  background-color: #9b000d;
+cursor: pointer;
+}
+
+#thanksText h2{
+    text-align: center;
+    font-weight: 700;
+    color: #D00011;
+    font-size: 32px;
+    padding: 20% 20% 20% 20%;
+}
+
+@media only screen and (max-width: 420px){
+    .col img{
+        width: 350px;
+        text-align: center;
+        padding-left: 50px;
+    }
+    .col{
+        padding-left: 2px;
+        width: 100%;
+    }
+    #sloganText p{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #seeMoreBtn{
+        padding: 2% 5% 2% 5%;
+        font-family: 'DM Sans' , serif;
+        font-size: 16px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #secondPortion p {
+        font-size: 18px;
+        text-align:left;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    #secondPortion{
+        padding-bottom: 70%;
+        margin-bottom: 50px;
+    }
+
+    #ourWorkHd h1{
+        padding-top: 50px;
+        margin-top: 50px;
+        font-size: 28px;
+    }
+
+    #TWDhd h1{
+        padding-top: 50px;
+        margin-top: 50px;
+        font-size: 28px;
+    }
+    #twdcol li{
+        list-style: none;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 180%;
+        
+        }
+    #formHeading h1{
+    padding-right: 0px;
+       text-align: center;
+        font-size: 28px;
+    }
+    #twdrow{
+        padding-bottom: 50px;
+    }
+    .form-group{
+        padding-right: 5px;
+        padding-left: 5px;;
+    }
+    #testmonialHeading{
+        padding-right: 0px;
+       text-align: center;
+        font-size: 32px;
+    }
+    
+    #formBoxCol-2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding-left: 0;
+    
+
+}
+    #testimonialText h3{
+       text-align: left;
+       padding-left: 50px;
+       padding-right: 50px;
+          
+
+    }
+    #testimonal-image{
+        padding-left: 25px;
+    }
+    #footerIcon{
+        padding-left: 50px;
+    }
+    
+}
